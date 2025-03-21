@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: #d5bdaf; 
+   /*background-image: url('C:/Users/Aasif Khan/Pictures/Saved Pictures/3d59dae7686dd2a95068a211edb18d34.jpg');
+   background-size: cover;
+   background-position: center; */
+   text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* width: 70vh; */
+}
+
+.game {
+      height: 60vmin;
+      width: 60vmin;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    /*color: #6f1d1b; */
+    background-color: #edede9;
+
+}
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #43291f;
+    color: white;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #43291f;
+    color: white;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+#msg {
+    color: #403d39;
+    font-size: 6vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+.O-style {
+    color: #6f1d1b;
+}
+
+.X-style {
+    color: #370617;
+}
